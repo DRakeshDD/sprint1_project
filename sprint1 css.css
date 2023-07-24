@@ -45,7 +45,7 @@ nav{
   flex-direction: column;
   padding-left: 24px;
  }
-
+  
  .cont-right button{
     width: 100%;
     padding: 8px 0px;
@@ -70,7 +70,7 @@ nav{
 .left-art{
   padding: 32px 24px;
 }
-
+  
 .left-art img , p{
   width:100%;
   padding-bottom: 32px;
@@ -170,7 +170,7 @@ padding: 8px 8px;
   padding-left: 8px;
  }
  .exhibit-left video , p{
-  padding: 0px 0px 0px 8px;
+  padding: 0px;
   width: 100%;
  }
  .exhibit-left video{
@@ -183,6 +183,9 @@ padding: 8px 8px;
  .h4{
   padding: 42px 24px;
   width: 65%;
+ }
+.h4 p{
+  padding-left: 8px;
  }
 .fishma{
   display: flex;
@@ -213,18 +216,18 @@ ul{
   display: flex;
   display: center;
   list-style: none;
-
+  
  }
  a{
   text-decoration: none;
   color: darkgrey;
   padding: 8px;
  }
-
+ 
 
 
  @media only screen and ( max-width:580px){
-
+  
   *{
     margin: 0%;
     padding: 0%;
@@ -253,7 +256,7 @@ ul{
     background-color: gray;
     border: none;
     font-size: 100%;
-
+    
   } 
   .cont-right{
     padding-right: 16px;
@@ -280,7 +283,7 @@ ul{
   }
   .orientation-m-info{
     padding-bottom: 32px;
-
+    
   }
   .orientation-m-info button{
     text-align: left;
@@ -308,7 +311,7 @@ ul{
     display: flex;
     flex-direction: column;
   }
-
+  
 
 
   .right-art img{
@@ -329,7 +332,7 @@ ul{
     display: grid;
     background-color: white;
   }
-
+  
   .mob-soft{
     border: 1px solid lightgrey;
     background-color: lightgrey;
@@ -377,5 +380,5 @@ ul{
   footer ul{
     display: none;
   }
-
+  
 }
